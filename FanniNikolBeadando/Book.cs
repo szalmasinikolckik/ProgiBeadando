@@ -13,6 +13,17 @@ namespace FanniNikolBeadando
         public int Pages { get; set; }
         public bool Favorite { get; set; }
 
+        public string Category
+        {
+            get
+            {
+                if (Pages > 300)
+                    return "Hosszú könyv";
+                else
+                    return "Rövid könyv";
+            }
+        }
+
         public override string ToString()
         {
             return $"{Title} - {Author}";

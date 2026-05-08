@@ -4,9 +4,148 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FanniNikolBeadando"
+        xmlns:tk="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Book Manager"
+        Height="500"
+        Width="900"
+        Background="#FFF8FA">
+
+    <Grid Margin="15">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0"
+                Background="White"
+                CornerRadius="12"
+                Padding="10"
+                Margin="5"
+                BorderBrush="LightPink"
+                BorderThickness="2">
+
+            <StackPanel>
+
+                <TextBlock Text="❤️ Books"
+                           FontSize="24"
+                           FontWeight="Bold"
+                           Margin="5"
+                           Foreground="#CC6699"/>
+
+                <ListBox x:Name="booksListBox"
+                         Height="350"
+                         Margin="5"
+                         FontSize="16"
+                         BorderThickness="0">
+
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="5">
+                                <TextBlock Text="{Binding Title}"
+                                           FontWeight="Bold"/>
+
+                                <TextBlock Text="{Binding Author}"
+                                           Foreground="Gray"
+                                           FontSize="13"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+
+                </ListBox>
+
+            </StackPanel>
+        </Border>
+
+     
+        <Border Grid.Column="1"
+                Background="White"
+                CornerRadius="12"
+                Padding="20"
+                Margin="5"
+                BorderBrush="LightPink"
+                BorderThickness="2">
+
+            <Grid>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+
+               
+                <StackPanel Margin="0,0,0,15">
+                    <TextBlock Text="Title"/>
+                    <TextBox x:Name="titleTextBox"
+                             Height="35"
+                             Padding="8"
+                             FontSize="15"/>
+                </StackPanel>
+
+              
+                <StackPanel Grid.Row="1" Margin="0,0,0,15">
+                    <TextBlock Text="Author"/>
+                    <TextBox x:Name="authorTextBox"
+                             Height="35"
+                             Padding="8"
+                             FontSize="15"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="2"
+                            Orientation="Horizontal"
+                            Margin="0,0,0,20">
+
+                    <StackPanel Margin="0,0,20,0">
+                        <TextBlock Text="Pages"/>
+                        <tk:IntegerUpDown x:Name="pagesUpDown"
+                                          Width="120"
+                                          Height="35"
+                                          VerticalAlignment="Center"
+                                          />
+                    </StackPanel>
+
+                    <CheckBox x:Name="favoriteCheckBox"
+                              Content="⭐ Favorite"
+                              VerticalAlignment="Center"
+                              FontSize="15"/> <!--NEM TUDOM KOZEPRE RAKNI A DOBOZT-->
+                </StackPanel>
+                <StackPanel Grid.Row="3"
+                           HorizontalAlignment="Center"
+                           Orientation="Horizontal">
+
+                    <Button x:Name="addButton"
+                            Content="Add"
+                            Width="120"
+                            Height="40"
+                            Margin="10"
+                            Background="#FFB6D9"
+                            Foreground="White"
+                            FontWeight="Bold"/>
+
+                    <Button x:Name="updateButton"
+                            Content="Update"
+                            Width="120"
+                            Height="40"
+                            Margin="10"
+                            Background="#D291BC"
+                            Foreground="White"
+                            FontWeight="Bold"/>
+
+                    <Button x:Name="deleteButton"
+                            Content="Delete"
+                            Width="120"
+                            Height="40"
+                            Margin="10"
+                            Background="#FF6B81"
+                            Foreground="White"
+                            FontWeight="Bold"/>
+
+                </StackPanel>
+            </Grid>
+        </Border>
 
     </Grid>
 </Window>
