@@ -112,5 +112,22 @@ namespace FanniNikolBeadando
 
             }
         }
+
+        private void saveButton_Click(object sender, RoutedEventArgs e)
+        {
+            SaveFileDialog savefile = new SaveFileDialog();
+            savefile.Filter = "Szöveges fájlok|*.txt|Minden fájl|*.*";
+            if (savefile.ShowDialog() != true) return;
+            string path = savefile.FileName;
+
+            using (StreamWriter writer = new StreamWriter(path))
+            {
+                foreach (Book book in Books)
+                {
+                    writer.WriteLine($"{book.Title};{book.Author};{book.Pages};{book.Favorite}");
+                }
+                MessageBox.Show("Sikeres mentés!", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        }
     }
 }
