@@ -74,6 +74,7 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
 
                
@@ -123,7 +124,7 @@
                             Margin="10"
                             Background="#FFB6D9"
                             Foreground="White"
-                            FontWeight="Bold"/>
+                            FontWeight="Bold" Click="addButton_Click"/>
 
                     <Button x:Name="updateButton"
                             Content="Update"
@@ -143,6 +144,18 @@
                             Foreground="White"
                             FontWeight="Bold"/>
 
+                </StackPanel>
+
+                <StackPanel Grid.Row="4">
+                    <Button x:Name="loadButton"
+                            Content="Load"
+                            Width="120"
+                            Height="40"
+                            Margin="10"
+                            Background="#FFB6D9"
+                            Foreground="White"
+                            FontWeight="Bold" Click="loadButton_Click"/> 
+                            
                 </StackPanel>
             </Grid>
         </Border>
