@@ -22,6 +22,7 @@ namespace FanniNikolBeadando
     {
 
         public ObservableCollection<Book> Books { get; set; }
+        
 
         public MainWindow()
         {
@@ -58,7 +59,58 @@ namespace FanniNikolBeadando
 
         private void addButton_Click(object sender, RoutedEventArgs e)
         {
+            string title = titleTextBox.Text.Trim();
+            string author = authorTextBox.Text.Trim();
+            int pages = (int)pagesUpDown.Value;
+            bool favourite = favoriteCheckBox.IsChecked == true;
 
+
+            Book uj = new Book(title, author, pages, favourite);
+
+            Books.Add(uj);
+
+            titleTextBox.Clear();
+            authorTextBox.Clear();
+            pagesUpDown.Value = 0;
+            favoriteCheckBox.IsChecked = false;
+
+            if (string.IsNullOrWhiteSpace(title) ||
+               string.IsNullOrWhiteSpace(author) ||
+               pagesUpDown == null)
+            {
+                MessageBox.Show(
+                    "Adj meg minden adattagot!",
+                    "Hiányzó adatok",
+                    MessageBoxButton.OK,
+                    MessageBoxImage.Warning);
+
+                return;
+            }
+        }
+
+        private void booksListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (booksListBox.SelectedItem is Book selectedBook)
+            {
+                titleTextBox.Text = selectedBook.Title;
+                authorTextBox.Text = selectedBook.Author;
+                pagesUpDown.Value = selectedBook.Pages;
+                favoriteCheckBox.IsChecked = selectedBook.Favorite;
+            }
+        }
+
+        private void deleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (booksListBox.SelectedItem is Book selectedBook)
+            {
+                Books.Remove(selectedBook);
+
+                titleTextBox.Clear();
+                authorTextBox.Clear();
+                pagesUpDown.Value = 0;
+                favoriteCheckBox.IsChecked = false;
+
+            }
         }
     }
 }

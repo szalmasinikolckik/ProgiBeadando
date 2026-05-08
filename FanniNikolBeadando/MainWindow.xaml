@@ -38,7 +38,7 @@
                          Height="350"
                          Margin="5"
                          FontSize="16"
-                         BorderThickness="0">
+                         BorderThickness="0" SelectionChanged="booksListBox_SelectionChanged">
 
                     <ListBox.ItemTemplate>
                         <DataTemplate>
@@ -92,7 +92,7 @@
                     <TextBox x:Name="authorTextBox"
                              Height="35"
                              Padding="8"
-                             FontSize="15"/>
+                             FontSize="15" />
                 </StackPanel>
 
                 <StackPanel Grid.Row="2"
@@ -142,7 +142,7 @@
                             Margin="10"
                             Background="#FF6B81"
                             Foreground="White"
-                            FontWeight="Bold"/>
+                            FontWeight="Bold" Click="deleteButton_Click"/>
 
                 </StackPanel>
 
