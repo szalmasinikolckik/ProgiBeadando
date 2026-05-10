@@ -117,24 +117,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ledac\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Niki\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Progi beadando wpf\\ProgiBeadando\\FanniNikolBeadando\\FanniNikolBeadando.csproj",
+      "projectUniqueName": "C:\\Users\\Niki\\Documents\\Proga\\ProgiBeadando\\FanniNikolBeadando\\FanniNikolBeadando.csproj",
       "projectName": "FanniNikolBeadando",
-      "projectPath": "D:\\Progi beadando wpf\\ProgiBeadando\\FanniNikolBeadando\\FanniNikolBeadando.csproj",
-      "packagesPath": "C:\\Users\\ledac\\.nuget\\packages\\",
-      "outputPath": "D:\\Progi beadando wpf\\ProgiBeadando\\FanniNikolBeadando\\obj\\",
+      "projectPath": "C:\\Users\\Niki\\Documents\\Proga\\ProgiBeadando\\FanniNikolBeadando\\FanniNikolBeadando.csproj",
+      "packagesPath": "C:\\Users\\Niki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Niki\\Documents\\Proga\\ProgiBeadando\\FanniNikolBeadando\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ledac\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Niki\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -159,8 +154,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "10.0.200"
+      }
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -190,7 +184,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

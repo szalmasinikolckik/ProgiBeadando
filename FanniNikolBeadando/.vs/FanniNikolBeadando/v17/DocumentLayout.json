@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\12\\IKTP\\Beadando\\FanniNikolBeadando\\",
+  "WorkspaceRootPath": "C:\\Users\\Niki\\Documents\\Proga\\ProgiBeadando\\FanniNikolBeadando\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE8BC50A-C33F-49FE-8CD0-046967690DE6}|FanniNikolBeadando.csproj|h:\\12\\iktp\\beadando\\fanninikolbeadando\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AE8BC50A-C33F-49FE-8CD0-046967690DE6}|FanniNikolBeadando.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE8BC50A-C33F-49FE-8CD0-046967690DE6}|FanniNikolBeadando.csproj|h:\\12\\iktp\\beadando\\fanninikolbeadando\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE8BC50A-C33F-49FE-8CD0-046967690DE6}|FanniNikolBeadando.csproj|c:\\users\\niki\\documents\\proga\\progibeadando\\fanninikolbeadando\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE8BC50A-C33F-49FE-8CD0-046967690DE6}|FanniNikolBeadando.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE8BC50A-C33F-49FE-8CD0-046967690DE6}|FanniNikolBeadando.csproj|h:\\12\\iktp\\beadando\\fanninikolbeadando\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE8BC50A-C33F-49FE-8CD0-046967690DE6}|FanniNikolBeadando.csproj|c:\\users\\niki\\documents\\proga\\progibeadando\\fanninikolbeadando\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AE8BC50A-C33F-49FE-8CD0-046967690DE6}|FanniNikolBeadando.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8BC50A-C33F-49FE-8CD0-046967690DE6}|FanniNikolBeadando.csproj|c:\\users\\niki\\documents\\proga\\progibeadando\\fanninikolbeadando\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE8BC50A-C33F-49FE-8CD0-046967690DE6}|FanniNikolBeadando.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,28 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Book.cs",
-              "DocumentMoniker": "H:\\12\\IKTP\\Beadando\\FanniNikolBeadando\\Book.cs",
-              "RelativeDocumentMoniker": "Book.cs",
-              "ToolTip": "H:\\12\\IKTP\\Beadando\\FanniNikolBeadando\\Book.cs",
-              "RelativeToolTip": "Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T07:18:23.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "H:\\12\\IKTP\\Beadando\\FanniNikolBeadando\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Niki\\Documents\\Proga\\ProgiBeadando\\FanniNikolBeadando\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "H:\\12\\IKTP\\Beadando\\FanniNikolBeadando\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Niki\\Documents\\Proga\\ProgiBeadando\\FanniNikolBeadando\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-05-08T07:16:00.995Z",
@@ -51,13 +38,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Niki\\Documents\\Proga\\ProgiBeadando\\FanniNikolBeadando\\Book.cs",
+              "RelativeDocumentMoniker": "Book.cs",
+              "ToolTip": "C:\\Users\\Niki\\Documents\\Proga\\ProgiBeadando\\FanniNikolBeadando\\Book.cs",
+              "RelativeToolTip": "Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T07:18:23.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "H:\\12\\IKTP\\Beadando\\FanniNikolBeadando\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Niki\\Documents\\Proga\\ProgiBeadando\\FanniNikolBeadando\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "H:\\12\\IKTP\\Beadando\\FanniNikolBeadando\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Niki\\Documents\\Proga\\ProgiBeadando\\FanniNikolBeadando\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T07:16:00.518Z",
               "EditorCaption": ""

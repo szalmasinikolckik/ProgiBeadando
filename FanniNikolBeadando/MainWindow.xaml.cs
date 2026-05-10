@@ -34,58 +34,71 @@ namespace FanniNikolBeadando
 
         private void loadButton_Click(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog dialog = new OpenFileDialog();
-            dialog.Filter = "Szöveges fájlok|*.txt|Minden fájl|*.*";
-            Books.Clear();
-            if (dialog.ShowDialog() != true) return;
-            string path = dialog.FileName;
-
-            using (StreamReader reader = new StreamReader(path))
+            try
             {
-                while (!reader.EndOfStream)
+                OpenFileDialog dialog = new OpenFileDialog();
+                dialog.Filter = "Szöveges fájlok|*.txt|Minden fájl|*.*";
+                Books.Clear();
+                if (dialog.ShowDialog() != true) return;
+                string path = dialog.FileName;
+
+                using (StreamReader reader = new StreamReader(path))
                 {
-                    string[] sor = reader.ReadLine().Split(';');
-                    string title = sor[0];
-                    string author = sor[1];
-                    int pages = int.Parse(sor[2]);
-                    bool favourite = bool.Parse(sor[3]);
+                    while (!reader.EndOfStream)
+                    {
+                        string[] sor = reader.ReadLine().Split(';');
+                        string title = sor[0];
+                        string author = sor[1];
+                        int pages = int.Parse(sor[2]);
+                        bool favourite = bool.Parse(sor[3]);
 
-                    Book book = new Book(title, author, pages, favourite);
+                        Book book = new Book(title, author, pages, favourite);
 
-                    Books.Add(book);
+                        Books.Add(book);
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
             }
         }
 
         private void addButton_Click(object sender, RoutedEventArgs e)
         {
+            if (pagesUpDown.Value == null)
+            {
+                return;
+            }
             string title = titleTextBox.Text.Trim();
             string author = authorTextBox.Text.Trim();
             int pages = (int)pagesUpDown.Value;
             bool favourite = favoriteCheckBox.IsChecked == true;
 
-
-            Book uj = new Book(title, author, pages, favourite);
-
-            Books.Add(uj);
-
-            titleTextBox.Clear();
-            authorTextBox.Clear();
-            pagesUpDown.Value = 0;
-            favoriteCheckBox.IsChecked = false;
-
             if (string.IsNullOrWhiteSpace(title) ||
-               string.IsNullOrWhiteSpace(author) ||
-               pagesUpDown == null)
+                string.IsNullOrWhiteSpace(author))
             {
                 MessageBox.Show(
-                    "Adj meg minden adattagot!",
+                    "Adj meg minden adatot!",
                     "Hiányzó adatok",
                     MessageBoxButton.OK,
                     MessageBoxImage.Warning);
 
                 return;
             }
+
+            Book uj = new Book(title, author, pages, favourite);
+
+            Books.Add(uj);
+
+
+            titleTextBox.Clear();
+            authorTextBox.Clear();
+            pagesUpDown.Value = 0;
+            favoriteCheckBox.IsChecked = false;
+            addButton.Background = Brushes.LightGreen;
+            
         }
 
         private void booksListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -111,6 +124,10 @@ namespace FanniNikolBeadando
                 favoriteCheckBox.IsChecked = false;
 
             }
+            else
+            {
+                MessageBox.Show("Nincs kiválasztott könyv!");
+            }
         }
 
         private void saveButton_Click(object sender, RoutedEventArgs e)
@@ -119,14 +136,39 @@ namespace FanniNikolBeadando
             savefile.Filter = "Szöveges fájlok|*.txt|Minden fájl|*.*";
             if (savefile.ShowDialog() != true) return;
             string path = savefile.FileName;
-
-            using (StreamWriter writer = new StreamWriter(path))
+            try
             {
-                foreach (Book book in Books)
+                using (StreamWriter writer = new StreamWriter(path))
                 {
-                    writer.WriteLine($"{book.Title};{book.Author};{book.Pages};{book.Favorite}");
+                    foreach (Book book in Books)
+                    {
+                        writer.WriteLine($"{book.Title};{book.Author};{book.Pages};{book.Favorite}");
+                    }
+                    MessageBox.Show("Sikeres mentés!", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
-                MessageBox.Show("Sikeres mentés!", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+           
+        }
+
+        private void updateButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (booksListBox.SelectedItem is Book selectedBook)
+            {
+                selectedBook.Title = titleTextBox.Text;
+                selectedBook.Author = authorTextBox.Text;
+                selectedBook.Pages = (int)pagesUpDown.Value;
+                selectedBook.Favorite = favoriteCheckBox.IsChecked == true;
+
+                booksListBox.Items.Refresh();
+
+            }
+            else
+            {
+                MessageBox.Show("Válassz ki egy könyvet!");
             }
         }
     }

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DXo+F9DYArw=",
+  "dgSpecHash": "WcUYpMl4jgg=",
   "success": true,
-  "projectFilePath": "D:\\Progi beadando wpf\\ProgiBeadando\\FanniNikolBeadando\\FanniNikolBeadando.csproj",
+  "projectFilePath": "C:\\Users\\Niki\\Documents\\Proga\\ProgiBeadando\\FanniNikolBeadando\\FanniNikolBeadando.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ledac\\.nuget\\packages\\extended.wpf.toolkit\\5.0.0\\extended.wpf.toolkit.5.0.0.nupkg.sha512"
+    "C:\\Users\\Niki\\.nuget\\packages\\extended.wpf.toolkit\\5.0.0\\extended.wpf.toolkit.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

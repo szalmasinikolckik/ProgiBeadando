@@ -9,7 +9,9 @@
         Title="Book Manager"
         Height="500"
         Width="900"
-        Background="#FFF8FA">
+        Background="#FFF8FA"
+        
+        >
 
     <Grid Margin="15">
 
@@ -105,6 +107,7 @@
                                           Width="120"
                                           Height="35"
                                           VerticalAlignment="Center"
+                                          Minimum="1"
                                           />
                     </StackPanel>
 
@@ -133,7 +136,7 @@
                             Margin="10"
                             Background="#D291BC"
                             Foreground="White"
-                            FontWeight="Bold"/>
+                            FontWeight="Bold" Click="updateButton_Click"/>
 
                     <Button x:Name="deleteButton"
                             Content="Delete"
@@ -165,8 +168,11 @@
                             Margin="10"
                             Background="#D291BC"
                             Foreground="White"
-                            FontWeight="Bold" Click="saveButton_Click" />    
-
+                            FontWeight="Bold" Click="saveButton_Click" />
+                    <Image Source="book.png"
+                            Width="133"
+                            Height="97"
+                            />
                 </StackPanel>
             </Grid>
         </Border>

@@ -78,3 +78,43 @@ D:\Progi beadando wpf\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\
 D:\Progi beadando wpf\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\FanniNikolBeadando.pdb
 D:\Progi beadando wpf\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\FanniNikolBeadando.genruntimeconfig.cache
 D:\Progi beadando wpf\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\ref\FanniNikolBeadando.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\FanniNikolBeadando.exe
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\FanniNikolBeadando.deps.json
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\FanniNikolBeadando.runtimeconfig.json
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\FanniNikolBeadando.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\FanniNikolBeadando.pdb
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\Xceed.Wpf.AvalonDock.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\Xceed.Wpf.Toolkit.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\bin\Debug\net8.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\FanniNikolBeadando.csproj.AssemblyReference.cache
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\FanniNikolBeadando_MarkupCompile.cache
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\FanniNikolBeadando_MarkupCompile.lref
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\FanniNikolBeadando.g.resources
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\FanniNikolBeadando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\FanniNikolBeadando.AssemblyInfoInputs.cache
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\FanniNikolBeadando.AssemblyInfo.cs
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\FanniNikolBeadando.csproj.CoreCompileInputs.cache
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\FanniNikolBeadando.sourcelink.json
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\FanniNik.64E6790F.Up2Date
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\FanniNikolBeadando.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\refint\FanniNikolBeadando.dll
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\FanniNikolBeadando.pdb
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\FanniNikolBeadando.genruntimeconfig.cache
+C:\Users\Niki\Documents\Proga\ProgiBeadando\FanniNikolBeadando\obj\Debug\net8.0-windows\ref\FanniNikolBeadando.dll
