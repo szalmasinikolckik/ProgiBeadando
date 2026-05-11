@@ -1,0 +1,5 @@
+git rm -r --cached .vs
+git add .
+git commit -m "nemjo a gitignore"
+git pull 
+git push
