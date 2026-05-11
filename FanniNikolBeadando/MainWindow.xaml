@@ -9,7 +9,9 @@
         Title="Book Manager"
         Height="500"
         Width="900"
-        Background="#FFF8FA">
+        Background="#FFF8FA"
+        
+        >
 
     <Grid Margin="15">
 
@@ -38,7 +40,7 @@
                          Height="350"
                          Margin="5"
                          FontSize="16"
-                         BorderThickness="0">
+                         BorderThickness="0" SelectionChanged="booksListBox_SelectionChanged">
 
                     <ListBox.ItemTemplate>
                         <DataTemplate>
@@ -74,6 +76,7 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
 
                
@@ -91,7 +94,7 @@
                     <TextBox x:Name="authorTextBox"
                              Height="35"
                              Padding="8"
-                             FontSize="15"/>
+                             FontSize="15" />
                 </StackPanel>
 
                 <StackPanel Grid.Row="2"
@@ -104,6 +107,7 @@
                                           Width="120"
                                           Height="35"
                                           VerticalAlignment="Center"
+                                          Minimum="1"
                                           />
                     </StackPanel>
 
@@ -123,7 +127,7 @@
                             Margin="10"
                             Background="#FFB6D9"
                             Foreground="White"
-                            FontWeight="Bold"/>
+                            FontWeight="Bold" Click="addButton_Click"/>
 
                     <Button x:Name="updateButton"
                             Content="Update"
@@ -132,7 +136,7 @@
                             Margin="10"
                             Background="#D291BC"
                             Foreground="White"
-                            FontWeight="Bold"/>
+                            FontWeight="Bold" Click="updateButton_Click"/>
 
                     <Button x:Name="deleteButton"
                             Content="Delete"
@@ -141,8 +145,34 @@
                             Margin="10"
                             Background="#FF6B81"
                             Foreground="White"
-                            FontWeight="Bold"/>
+                            FontWeight="Bold" Click="deleteButton_Click"/>
 
+                </StackPanel>
+
+                <StackPanel Grid.Row="4"
+                            HorizontalAlignment="Center"
+                            Orientation="Horizontal">
+                    <Button x:Name="loadButton"
+                            Content="Load"
+                            Width="120"
+                            Height="40"
+                            Margin="10"
+                            Background="#FFB6D9"
+                            Foreground="White"
+                            FontWeight="Bold" Click="loadButton_Click"/>
+
+                    <Button x:Name="saveButton"
+                            Content="Save"
+                            Width="120"
+                            Height="40"
+                            Margin="10"
+                            Background="#D291BC"
+                            Foreground="White"
+                            FontWeight="Bold" Click="saveButton_Click" />
+                    <Image Source="book.png"
+                            Width="133"
+                            Height="97"
+                            />
                 </StackPanel>
             </Grid>
         </Border>

@@ -1,0 +1,15 @@
+Harry Potter és a bölcsek köve;J. K. Rowling;320;true
+A kis herceg;Antoine de Saint-Exupéry;120;true
+1984;George Orwell;410;false
+Pál utcai fiúk;Molnár Ferenc;190;false
+Az éhezők viadala;Suzanne Collins;374;true
+Büszkeség és balítélet;Jane Austen;279;false
+A Gyűrűk Ura;J. R. R. Tolkien;1178;true
+A Hobbit;J. R. R. Tolkien;295;true
+Metro 2033;Dmitry Glukhovsky;460;false
+Percy Jackson és a villámtolvaj;Rick Riordan;377;true
+Sherlock Holmes kalandjai;Arthur Conan Doyle;250;false
+Drakula;Bram Stoker;418;false
+Frankenstein;Mary Shelley;280;false
+A Da Vinci-kód;Dan Brown;489;true
+Twilight;Stephenie Meyer;498;false
